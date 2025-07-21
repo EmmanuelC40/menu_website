@@ -3,43 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <title>Tajin Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Calibri', serif;
+      background: linear-gradient(to bottom, red, white, green);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-attachment: scroll;
+      color: #222;
+    }
+
     body {
-  margin: 0;
-  font-family: Times New Roman;
-  background: linear-gradient(to bottom, red, white, green);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  color: #222;
-  padding: 20px;
-  min-height: 100vh;
-}
+      padding: 20px;
+    }
 
-    h1, h2 {
+    h1 {
       text-align: center;
+      font-size: 3.5em;
+      margin-top: 0;
     }
 
-    section {
-      margin-bottom: 40px;
+    #google_translate_element {
+      text-align: center;
+      margin-bottom: 15px;
     }
 
-    button {
-       background: none;
-       border: none;
-       padding: 0;
-       margin-left: 10px;
-       cursor: pointer;
+    nav {
+      text-align: center;
+      margin-bottom: 20px;
     }
 
-    button img {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
-        vertical-align: middle;
+    nav button {
+      background: none;
+      border: black 2px solid;
+      padding: 10px 50px;
+      margin: 0 5px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      outline: none;
+      color: #222;
+      border-bottom: none;
+      transition: border-bottom 0.2s;
     }
 
+    nav button.active {
+      border-bottom: 4px double rgb(228, 17, 17);
+      background: none;
+      color: rgb(218, 193, 193);
+    }
 
-    /* Popup style */
+    #menu-container {
+      margin-top: 20px;
+    }
+
+    /* Popup */
     #popup {
       display: none;
       position: fixed;
@@ -48,16 +69,18 @@
       background-color: rgba(0,0,0,0.8);
       text-align: center;
       padding-top: 50px;
+      z-index: 999;
     }
 
     #popup img {
       max-width: 90%;
       max-height: 80%;
-      border: 5px solid white;
+      border: none;
     }
 
     #popup p {
       color: white;
+      font-size: 16px;
       margin-top: 10px;
     }
   </style>
@@ -66,187 +89,53 @@
 
 <h1>Tajin Restaurant Menu</h1>
 
-<section>
-  <h2>STARTERS</h2>
-  <p>
-    Azteca Soup - Chicken tortilla soup with vegetables, cheese, and diced avocado.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Azteca Soup')">
-  <img src="https://img.icons8.com/?size=100&id=53386&format=png&color=000000" alt="icon"> Image
-</button>
-  </p>
-  <p>
-    Salsa & Chips - Fresh salsa, onions, cilantro, and jalapeño peppers. Served with chips.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Salsa & Chips')">View Image</button>
-  </p>
-  <p>
-    Guacamole & Chips - A blend of fresh avocados, onions, cilantro, and jalapeño peppers. Served with chips.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Guacamole & Chips')">View Image</button>
-  </p>
-  <p>
-    Flautas - Three crispy corn tortillas stuffed with chicken. Served with lettuce, topped with sour cream, cheese, pico de gallo, and tomatillo salsa.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Flautas')">View Image</button>
-  </p>
-</section>
+<div id="google_translate_element"></div>
 
-<section>
-  <h2>QUESADILLAS</h2>
-  <p>
-    Cheese Quesadilla - Flour tortillas filled with cheese, topped with guacamole. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Cheese Quesadilla')">View Image</button>
-  </p>
-  <p>
-    Spinach & Mushroom Quesadilla - Spinach and Mushroom mix in flour tortillas filled with cheese, topped with guacamole.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Spinach & Mushroom Quesadilla')">View Image</button>
-  </p>
-  <p>
-    Grilled Chicken Quesadilla - Grilled chicken in flour tortillas filled with cheese, topped with guacamole.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Chicken Quesadilla')">View Image</button>
-  </p>
-  <p>
-    Grilled Steak Quesadilla - Grilled steak in flour tortillas filled with cheese, topped with guacamole.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Steak Quesadilla')">View Image</button>
-  </p>
-  <p>
-    Shrimp Quesadilla - Sauteed shrimp in a chipotle sauce in flour tortillas filled with cheese. Topped with guacamole. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Shrimp Quesadilla')">View Image</button>
-  </p>
-</section>
+<nav>
+  <button id="foodTab" class="active" onclick="loadMenu('food.html', this)">Food</button>
+  <button id="drinkTab" onclick="loadMenu('drinks.html', this)">Drinks</button>
+</nav>
 
-<section>
-  <h2>TACOS</h2>
-  <p>
-    Grilled Chicken or Steak Tacos - Two chicken or steak tacos served with cilantro, tomatillo salsa, and guacamole. Served with rice and beans.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Chicken or Steak Tacos')">View Image</button>
-  </p>
-  <p>
-    Shrimp Tacos - Two shrimp tacos served with cilantro, tomatillo salsa, and guacamole. Served with rice and beans. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Shrimp Tacos')">View Image</button>
-  </p>
-  <p>
-    Fish Tacos - Two fish tacos in flour tortillas filled with iceberg lettuce, pico de gallo, tomatillo salsa, and avocado. Served with rice and beans. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Fish Tacos')">View Image</button>
-  </p>
-</section>
+<section id="menu-container"></section>
 
-<section>
-  <h2>BURRITOS</h2>
-  <p>
-    Grilled Chicken or Steak Burrito - Grilled chicken or steak with rice, pinto beans, lettuce, cheese, sour cream, pico de gallo, and guacamole. Wrapped in a flour tortilla.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Chicken or Steak Burrito')">View Image</button>
-  </p>
-  <p>
-    Vegetable Burrito - Vegetable mix with rice, pinto beans, lettuce, cheese, sour cream, pico de gallo, and guacamole. Wrapped in a flour tortilla.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Vegetable Burrito')">View Image</button>
-  </p>
-  <p>
-    Shrimp Burrito - Sauteed shrimp in a chipotle sauce. With lettuce, cheese, sour cream, and guacamole. Wrapped in a flour tortilla. Served with rice and beans on the side. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Shrimp Burrito')">View Image</button>
-  </p>
-</section>
-
-<section>
-  <h2>TAJIN FAVORITES</h2>
-  <p>
-    Carne Asada - Grilled steak served with rice, black beans, guacamole, sauteed onions, and tortillas. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Carne Asada')">View Image</button>
-  </p>
-  <p>
-    Grilled Pork Chops - Served with rice, black beans, and tortillas. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Grilled Pork Chops')">View Image</button>
-  </p>
-  <p>
-    Tajin Chicken - Sauteed chicken breast in light tomato sauce, topped with cheese. Served with rice and beans.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Tajin Chicken')">View Image</button>
-  </p>
-  <p>
-    Chicken and Shrimp Salad - Served over romaine lettuce, carrots, broccoli, and avocado slices. House dressing on the side. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Chicken and Shrimp Salad')">View Image</button>
-  </p>
-  <p>
-    Grilled Chicken or Steak Chimichanga - Two fried tortilla rolls with grilled chicken (or steak), beans, and cheese, topped with sour cream, pico de gallo, and lettuce. Includes rice and beans.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Chicken or Steak Chimichanga')">View Image</button>
-  </p>
-  <p>
-    Steak Rancheros - Sauteed steak with onions, tomatoes, and jalapeños. Served with rice, black beans, and corn tortillas. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Steak Rancheros')">View Image</button>
-  </p>
-  <p>
-    Camarones Al Ajillo - Sauteed shrimp (6) with white wine, olive oil, and garlic-cilantro sauce. Served with rice and salad. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Camarones Al Ajillo')">View Image</button>
-  </p>
-  <p>
-    Mexican Salad - Grilled chicken over lettuce, broccoli, tomatoes, carrots, cheese, and two avocado slices. Served with house dressing on the side. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Mexican Salad')">View Image</button>
-  </p>
-</section>
-
-<section>
-  <h2>SALADS</h2>
-  <p>
-    Taco Salad - Choice of Grilled Chicken or Steak over lettuce, pico de gallo, broccoli, tomatoes, carrots, cheese, and avocado served on a taco shell. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Taco Salad')">View Image</button>
-  </p>
-  <p>
-    Shrimp Taco Salad - Grilled shrimp (6) over lettuce, pico de gallo, broccoli, tomatoes, carrots, cheese, and avocado served on a taco shell. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Shrimp Taco Salad')">View Image</button>
-  </p>
-  <p>
-    Grilled Salmon - Marinated salmon served over salad and rice. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Grilled Salmon')">View Image</button>
-  </p>
-</section>
-
-<section>
-  <h2>FAJITAS</h2>
-  <p>
-    Grilled Chicken or Steak Fajitas - Grilled chicken (or steak) sauteed with onions and peppers. Served with rice, black beans, shredded lettuce, pico de gallo, and tortillas. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Chicken or Steak Fajitas')">View Image</button>
-  </p>
-  <p>
-    Shrimp Fajitas - Grilled shrimp (6) sauteed with onions and peppers. Served with rice, black beans, shredded lettuce, pico de gallo, and tortillas. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Shrimp Fajitas')">View Image</button>
-  </p>
-  <p>
-    Combo Fajitas - Grilled chicken, steak, shrimp (3) sauteed with onions and peppers. Served with rice, black beans, shredded lettuce, pico de gallo, and tortillas.  
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Combo Fajitas')">View Image</button>
-  </p>
-</section>
-
-<section>
-  <h2>ENCHILADAS</h2>
-  <p>
-    Cheese Enchiladas - Two corn tortillas stuffed with cheese, topped with cheese and salsa. Served with rice and black beans. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Cheese Enchiladas')">View Image</button>
-  </p>
-  <p>
-    Chicken, Ground Beef, or Spinach - Two corn tortillas stuffed with your choice of chicken, ground beef, or spinach topped with cheese and salsa. Served with rice and black beans. 
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Chicken, Beef, or Spinach Enchiladas')">View Image</button>
-  </p>
-  <p>
-    Mole Enchiladas - Chicken enchiladas with mole sauce. Topped with cheese and served with rice and beans.
-    <button onclick="showImage('https://s3-media0.fl.yelpcdn.com/bphoto/xL9Rk822D1ouHwkBHggWDw/348s.jpg', 'Mole Enchiladas')">View Image</button>
-  </p>
-</section>
-
-
-<!-- Add more sections similarly if desired -->
-
-<!-- Popup container -->
-<span id="popup" onclick="this.style.display='none'">
+<div id="popup" onclick="this.style.display='none'">
   <img id="popup-img" src="" alt="Popup Image">
   <p id="popup-caption"></p>
-</span>
+</div>
 
 <script>
+  function loadMenu(page, button) {
+    document.querySelectorAll('nav button').forEach(btn => btn.classList.remove('active'));
+    button.classList.add('active');
+
+    fetch(page)
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('menu-container').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading menu:', error));
+  }
+
   function showImage(src, caption) {
     document.getElementById("popup-img").src = src;
     document.getElementById("popup-caption").textContent = caption;
     document.getElementById("popup").style.display = "block";
   }
+
+  window.onload = function() {
+    loadMenu('food.html', document.getElementById('foodTab'));
+  };
 </script>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en'
+  }, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>
-
-
-
