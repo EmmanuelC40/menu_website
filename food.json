@@ -26,7 +26,7 @@
           "pt": "Sopa de tortilha de frango com legumes, queijo e abacate em cubos.",
           "zh": "鸡肉玉米饼汤，搭配蔬菜、芝士和牛油果丁。"
         },
-        "image":"food/azteca_soup.png"
+        "image":"./food/azteca_soup.png"
       },
       {
         "name": {
@@ -45,7 +45,7 @@
           "pt": "Salsa fresca, cebola, coentro e pimenta jalapeño. Servido com totopos.",
           "zh": "新鲜莎莎酱、洋葱、香菜和墨西哥辣椒。附带玉米片。"
         },
-        "image":"food/salsa_chips.png"
+        "image":"./food/salsa_chips.png"
       },
       {
         "name": {
@@ -114,7 +114,7 @@
           "pt": "Tortilhas de trigo recheadas com queijo, cobertas com guacamole.",
           "zh": "小麦面饼夹着浓郁芝士，表面搭配牛油果酱。"
         },
-        "image":"food/quesadilla.png"
+        "image":"./food/quesadilla.png"
       },
       {
         "name": {
@@ -133,7 +133,7 @@
           "pt": "Mistura de espinafre e cogumelos em tortilhas de trigo recheadas com queijo, cobertas com guacamole.",
           "zh": "面饼内裹有菠菜与蘑菇拌料及芝士，表面配以牛油果酱。"
         },
-        "image":"food/quesadilla.png"
+        "image":"./food/quesadilla.png"
       },
       {
         "name": {
@@ -152,7 +152,7 @@
           "pt": "Frango grelhado em tortilhas de trigo recheadas com queijo, cobertas com guacamole.",
           "zh": "面饼内包裹烤鸡肉与芝士，表面搭配牛油果酱。"
         },
-        "image":"food/quesadilla.png"
+        "image":"./food/quesadilla.png"
       },
       {
         "name": {
@@ -171,7 +171,7 @@
           "pt": "Carne grelhada em tortilhas de trigo recheadas com queijo, cobertas com guacamole.",
           "zh": "面饼内包裹着切片烤牛排与芝士，外带牛油果酱。"
         },
-        "image":"food/quesadilla.png"
+        "image":"./food/quesadilla.png"
       },
       {
         "name": {
@@ -190,7 +190,7 @@
           "pt": "Camarões salteados em molho chipotle em tortilhas de trigo recheadas com queijo. Coberta com guacamole.",
           "zh": "小麦面饼包入烟熏辣椒酱（chipotle）风味的炒虾与芝士。表面附有牛油果酱。"
         },
-        "image":"food/quesadilla.png"
+        "image":"./food/quesadilla.png"
       }
     ]
   },
@@ -221,7 +221,7 @@
           "pt": "Dois tacos de frango ou carne servidos com coentro, salsa de tomatillo e guacamole. Acompanha arroz e feijão.",
           "zh": "两只鸡肉或牛排塔可，配以香菜、绿番茄沙司和牛油果酱。附送米饭和豆泥。"
         },
-        "image":"food/tacos.png"
+        "image":"./food/tacos.png"
       },
       {
         "name": {
@@ -259,7 +259,7 @@
           "pt": "Dois tacos de peixe em tortilhas de trigo recheados com alface iceberg, pico de gallo, salsa de tomatillo e abacate. Acompanha arroz e feijão.",
           "zh": "两只小麦饼鱼肉塔可，内含卷心生菜、公鸡嘴酱、绿番茄沙司和牛油果。附奉米饭和豆泥。"
         },
-        "image":"food/fish_tacos.png"
+        "image":"./food/fish_tacos.png"
       }
     ]
   },
@@ -290,7 +290,7 @@
           "pt": "Frango ou carne grelhada com arroz, feijão carioca, alface, queijo, natas azedas, pico de gallo e guacamole. Enrolado em uma tortilha de trigo.",
           "zh": "烤鸡肉或牛排，搭配米饭、斑豆、生菜、芝士、酸奶油、公鸡嘴酱和牛油果酱。用小麦面饼包裹。"
         },
-        "image":"food/burrito.png"
+        "image":"./food/burrito.png"
       },
       {
         "name": {
@@ -309,7 +309,7 @@
           "pt": "Mistura de legumes com arroz, feijão carioca, alface, queijo, natas azedas, pico de gallo e guacamole. Enrolado em uma tortilha de trigo.",
           "zh": "综合蔬菜配米饭、斑豆、生菜、芝士、酸奶油、公鸡嘴酱和牛油果酱。用小麦面饼包裹。"
         },
-        "image":"food/burrito.png"
+        "image":"./food/burrito.png"
       },
       {
         "name": {
@@ -473,7 +473,7 @@
           "pt": "Camarões salteados (6) com vinho branco, azeite de oliva e molho de alho e coentro. Servido com arroz e salada.",
           "zh": "六只炒大虾，加入白葡萄酒、橄榄油和大蒜香菜酱。附带米饭和沙拉。"
         },
-        "image":"food/camaron_ajillo.png"
+        "image":"./food/camaron_ajillo.png"
       },
       {
         "name": {
@@ -542,7 +542,7 @@
           "pt": "Camarões grelhados (6) sobre alface, pico de gallo, brócolis, tomate, cenoura, queijo e abacate servido em uma casquinha de taco.",
           "zh": "六只烤鲜虾铺在生菜、公鸡嘴酱、西兰花、西红柿、胡萝卜、芝士和牛油果上，并盛在香脆塔可碗内。"
         },
-        "image":"food/shp_taco_salad.png"
+        "image":"./food/shp_taco_salad.png"
       },
       {
         "name": {
@@ -630,7 +630,7 @@
           "pt": "Frango grelhado, carne e camarão (3) salteados com cebola e pimentão. Servido com arroz, feijão preto, alface picada, pico de gallo e tortilhas.",
           "zh": "烤鸡肉、牛排及三只大虾与洋葱和彩椒一同爆炒。配以米饭、黑豆泥、生菜丝、公鸡嘴酱及薄饼。"
         },
-        "image":"food/combo_fajita.png"
+        "image":"./food/combo_fajita.png"
       }
     ]
   },
@@ -661,7 +661,7 @@
           "pt": "Duas tortilhas de milho recheadas com queijo, cobertas com queijo e salsa. Acompanha arroz e feijão preto.",
           "zh": "两只裹满芝士的玉米饼卷，表面淋上沙司和芝士烤制。搭配米饭及黑豆泥。"
         },
-        "image":"food/enchiladas.png"
+        "image":"./food/enchiladas.png"
       },
       {
         "name": {
@@ -680,7 +680,7 @@
           "pt": "Duas tortilhas de milho recheadas com sua escolha de frango, carne moída ou espinafre, cobertas com queijo e salsa. Acompanha arroz e feijão preto.",
           "zh": "两只玉米饼卷，可选鸡肉、牛肉碎或菠菜作为内馅，表面覆有芝士及沙司。搭配米饭和黑豆泥。"
         },
-        "image":"food/enchiladas.png"
+        "image":"./food/enchiladas.png"
       },
       {
         "name": {
@@ -699,7 +699,7 @@
           "pt": "Enchiladas de frango com molho mole. Cobertas com queijo e servidas com arroz e feijão.",
           "zh": "淋上经典墨西哥莫雷酱（Mole，一种含可可与多个香料调配的特调酱汁）的鸡肉玉米卷，面覆芝士，附米饭和豆泥。"
         },
-        "image":"food/mole_enchilada.png"
+        "image":"./food/mole_enchilada.png"
       }
     ]
   }
