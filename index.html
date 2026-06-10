@@ -5,137 +5,444 @@
   <title>Tajin Menu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
     html, body {
       margin: 0;
       padding: 0;
       font-family: 'Calibri', serif;
-      background: linear-gradient(to bottom, red, white, green);
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-attachment: scroll;
+      background: #FAF6EE;
       color: #222;
     }
 
-    body {
-      padding: 20px;
+    /* ── Hero ── */
+    .hero-wrap {
+      position: relative;
+      width: 100%;
+      height: 360px;
+      overflow: hidden;
+    }
+
+    .hero-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+
+    /* SVG wave sits at the bottom of the hero, filled with the cream colour */
+    .hero-wave {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 100%;
+      height: 110px;
+      display: block;
+      pointer-events: none;
+    }
+
+    /* ── Site body ── */
+    .site-body {
+      background: #FAF6EE;
+      padding: 0 20px 30px;
     }
 
     h1 {
       text-align: center;
-      font-size: 3.5em;
-      margin-top: 0;
+      font-size: 3em;
+      margin: 16px 0 12px;
+      font-family: Georgia, 'Times New Roman', serif;
+      color: #1a3a1a;
+      letter-spacing: 0.02em;
     }
 
-    #google_translate_element {
+    /* ── Language dropdown ── */
+    #language-selector {
       text-align: center;
       margin-bottom: 15px;
     }
+    #lang-label {
+      font-size: 0.85em;
+      color: #666;
+      margin-right: 6px;
+      font-style: italic;
+    }
+    #lang-select {
+      font-family: 'Calibri', serif;
+      font-size: 1em;
+      padding: 6px 32px 6px 12px;
+      border: 1.5px solid #b8995a;
+      border-radius: 6px;
+      background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237a4a10' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 10px center;
+      appearance: none;
+      -webkit-appearance: none;
+      color: #222;
+      cursor: pointer;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    #lang-select:focus {
+      border-color: #2d6a2d;
+      box-shadow: 0 0 0 3px rgba(45,106,45,0.15);
+    }
 
+    /* ── Food / Drink tabs ── */
     nav {
       text-align: center;
       margin-bottom: 20px;
+      border-bottom: 1.5px solid #c8b89a;
     }
-
     nav button {
       background: none;
-      border: black 2px solid;
-      padding: 10px 50px;
-      margin: 0 5px;
-      font-size: 18px;
+      border: 1.5px solid #333;
+      border-bottom: none;
+      padding: 9px 48px;
+      margin: 0 4px;
+      font-size: 17px;
       font-weight: bold;
       cursor: pointer;
       outline: none;
-      color: #222;
-      border-bottom: none;
-      transition: border-bottom 0.2s;
+      color: #333;
+      font-family: 'Calibri', serif;
+      border-radius: 5px 5px 0 0;
+      transition: background 0.15s, color 0.15s;
     }
-
     nav button.active {
-      border-bottom: 4px double rgb(228, 17, 17);
-      background: none;
-      color: rgb(218, 193, 193);
+      background: #2d6a2d;
+      color: #FAF6EE;
+      border-color: #2d6a2d;
     }
 
+    /* ── Menu container ── */
     #menu-container {
-      margin-top: 20px;
+      margin-top: 10px;
     }
 
-    /* Popup */
+    /* ── Category heading ── */
+    .category-title {
+      font-size: 1.1em;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 1.5px solid #b8995a;
+      color: #7a4a10;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      padding-bottom: 4px;
+    }
+
+    /* ── Menu item card ── */
+    .menu-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 12px;
+      background: rgba(255,255,255,0.72);
+      border-radius: 8px;
+      padding: 10px 14px;
+      border: 0.5px solid #ddd0bb;
+    }
+    .menu-item-img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 6px;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+    .menu-item-img-placeholder {
+      width: 80px;
+      height: 80px;
+      border-radius: 6px;
+      background: #e0d5c0;
+      flex-shrink: 0;
+    }
+    .menu-item-info { flex: 1; }
+    .menu-item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+    }
+    .menu-item-name {
+      font-weight: bold;
+      font-size: 1.05em;
+    }
+    .menu-item-price {
+      font-weight: bold;
+      white-space: nowrap;
+      color: #7a4a10;
+    }
+    .menu-item-desc {
+      font-size: 0.88em;
+      color: #555;
+      margin-top: 4px;
+      line-height: 1.4;
+    }
+
+    /* ── Loading / error state ── */
+    #menu-status {
+      text-align: center;
+      padding: 30px;
+      font-size: 1.1em;
+      color: #888;
+    }
+
+    /* ── Popup ── */
     #popup {
       display: none;
       position: fixed;
       top: 0; left: 0;
       width: 100%; height: 100%;
-      background-color: rgba(0,0,0,0.8);
+      background-color: rgba(0,0,0,0.85);
+      z-index: 9999;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    #popup.open { display: flex; }
+    #popup-img {
+      max-width: 88vw;
+      max-height: 78vh;
+      border-radius: 10px;
+      display: block;
+      object-fit: contain;
+    }
+    #popup-caption {
+      color: #fff;
+      font-size: 1em;
+      margin-top: 14px;
       text-align: center;
-      padding-top: 50px;
-      z-index: 999;
+      max-width: 80vw;
     }
-
-    #popup img {
-      max-width: 90%;
-      max-height: 80%;
+    #popup-close {
+      position: fixed;
+      top: 18px; right: 24px;
+      color: #fff;
+      font-size: 2em;
+      line-height: 1;
+      cursor: pointer;
+      background: none;
       border: none;
+      padding: 0;
+      opacity: 0.8;
     }
-
-    #popup p {
-      color: white;
-      font-size: 16px;
-      margin-top: 10px;
-    }
+    #popup-close:hover { opacity: 1; }
   </style>
 </head>
 <body>
 
-<h1>Tajin Restaurant Menu</h1>
+<!-- ── Hero photo with organic wave cutoff ── -->
+<div class="hero-wrap">
+  <!--
+    Replace the src below with your own restaurant photo.
+    Keep it in the same GitHub Pages repo (e.g. src="images/restaurant.jpg")
+    or use any publicly accessible URL.
+  -->
+  <img class="hero-img"
+       src="./hero/hero.png"
+       alt="Tajin Restaurant"
+       onerror="this.style.background='#8B5E3C';this.removeAttribute('src')">
 
-<div id="google_translate_element"></div>
+  <!-- Irregular SVG wave — cream fill eats into the bottom of the photo -->
+  <svg class="hero-wave"
+       viewBox="0 0 1440 110"
+       preserveAspectRatio="none"
+       xmlns="http://www.w3.org/2000/svg"
+       aria-hidden="true">
+    <path d="
+      M0,110
+      L0,62
+      C60,38  100,78  170,55
+      C240,32  290,70  370,48
+      C450,26  500,64  580,44
+      C660,24  710,62  790,42
+      C870,22  920,58  1000,40
+      C1080,22 1130,56 1210,38
+      C1280,22 1360,54 1440,36
+      L1440,110 Z"
+      fill="#FAF6EE"/>
+  </svg>
+</div>
 
-<nav>
-  <button id="foodTab" class="active" onclick="loadMenu('food.html', this)">Food</button>
-  <button id="drinkTab" onclick="loadMenu('drinks.html', this)">Drinks</button>
-</nav>
+<!-- ── Everything below the hero ── -->
+<div class="site-body">
 
-<section id="menu-container"></section>
+  <h1 class="notranslate">Tajin Restaurant Menu</h1>
 
-<div id="popup" onclick="this.style.display='none'">
-  <img id="popup-img" src="" alt="Popup Image">
+  <!-- Language Selector -->
+  <div id="language-selector">
+    <label id="lang-label" for="lang-select">Language:</label>
+    <select id="lang-select" onchange="setLanguage(this.value)">
+      <option value="en">(EN) English</option>
+      <option value="es">(ES) Español</option>
+      <option value="fr">(FR) Français</option>
+      <option value="de">(DE) Deutsch</option>
+      <option value="pt">(PT) Português</option>
+      <option value="zh">(ZH) 中文</option>
+    </select>
+  </div>
+
+  <!-- Food / Drinks Tabs -->
+  <nav>
+    <button id="foodTab" class="active" onclick="loadMenu('food', this)">Food</button>
+    <button id="drinkTab" onclick="loadMenu('drinks', this)">Drinks</button>
+  </nav>
+
+  <!-- Menu rendered here -->
+  <section id="menu-container">
+    <div id="menu-status">Loading menu…</div>
+  </section>
+
+</div><!-- /.site-body -->
+
+<!-- Popup for food images -->
+<div id="popup" onclick="closePopup()">
+  <button id="popup-close" onclick="closePopup()" aria-label="Close">&times;</button>
+  <img id="popup-img" src="" alt="Food photo" onclick="event.stopPropagation()">
   <p id="popup-caption"></p>
 </div>
 
 <script>
-  function loadMenu(page, button) {
-    document.querySelectorAll('nav button').forEach(btn => btn.classList.remove('active'));
-    button.classList.add('active');
+  let currentLang = 'en';
+  let currentType = 'food';
+  const cache = {};
 
-    fetch(page)
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('menu-container').innerHTML = data;
-      })
-      .catch(error => console.error('Error loading menu:', error));
+  const tabLabels = {
+    food:   { en:'Food',   es:'Comida',  fr:'Nourriture', de:'Essen',    pt:'Comida',  zh:'食物' },
+    drinks: { en:'Drinks', es:'Bebidas', fr:'Boissons',   de:'Getränke', pt:'Bebidas', zh:'饮料' }
+  };
+
+  function setLanguage(lang) {
+    currentLang = lang;
+    document.getElementById('foodTab').textContent  = tabLabels.food[lang]   || tabLabels.food.en;
+    document.getElementById('drinkTab').textContent = tabLabels.drinks[lang] || tabLabels.drinks.en;
+    renderMenu();
+  }
+
+  function loadMenu(type, btn) {
+    currentType = type;
+    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderMenu();
+  }
+
+  function renderMenu() {
+    const file = `${currentType}.json`;
+    setStatus('Loading…');
+    getJSON(file)
+      .then(data => buildMenuHTML(data))
+      .catch(err => {
+        console.error(err);
+        setStatus(`Could not load ${file}. Make sure it exists in your GitHub Pages repo.`);
+      });
+  }
+
+  function getJSON(file) {
+    if (cache[file]) return Promise.resolve(cache[file]);
+    return fetch(file)
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+      .then(data => { cache[file] = data; return data; });
+  }
+
+  function buildMenuHTML(data) {
+    const lang = currentLang;
+    const container = document.getElementById('menu-container');
+    container.innerHTML = '';
+
+    for (const [categoryKey, category] of Object.entries(data)) {
+      const heading = document.createElement('div');
+      heading.className = 'category-title';
+      heading.textContent =
+        (category.category_translations && category.category_translations[lang])
+        || categoryKey;
+      container.appendChild(heading);
+
+      (category.items || []).forEach(item => {
+        const name  = getText(item.name, lang);
+        const desc  = getText(item.description, lang);
+        const price = item.price ? `$${item.price}` : '';
+        const img   = item.image || null;
+
+        const card = document.createElement('div');
+        card.className = 'menu-item';
+
+        if (img) {
+          const imgEl = document.createElement('img');
+          imgEl.className = 'menu-item-img';
+          imgEl.src = img;
+          imgEl.alt = name;
+          imgEl.onclick = () => showImage(img, name);
+          card.appendChild(imgEl);
+        } else {
+          const ph = document.createElement('div');
+          ph.className = 'menu-item-img-placeholder';
+          card.appendChild(ph);
+        }
+
+        const info   = document.createElement('div');
+        info.className = 'menu-item-info';
+        const header = document.createElement('div');
+        header.className = 'menu-item-header';
+
+        const nameEl = document.createElement('span');
+        nameEl.className = 'menu-item-name';
+        nameEl.textContent = name;
+        header.appendChild(nameEl);
+
+        if (price) {
+          const priceEl = document.createElement('span');
+          priceEl.className = 'menu-item-price';
+          priceEl.textContent = price;
+          header.appendChild(priceEl);
+        }
+
+        info.appendChild(header);
+
+        if (desc) {
+          const descEl = document.createElement('div');
+          descEl.className = 'menu-item-desc';
+          descEl.textContent = desc;
+          info.appendChild(descEl);
+        }
+
+        card.appendChild(info);
+        container.appendChild(card);
+      });
+    }
+  }
+
+  function getText(field, lang) {
+    if (!field) return '';
+    return field[lang] || field['en'] || Object.values(field)[0] || '';
+  }
+
+  function setStatus(msg) {
+    document.getElementById('menu-container').innerHTML =
+      `<div id="menu-status">${msg}</div>`;
   }
 
   function showImage(src, caption) {
-    document.getElementById("popup-img").src = src;
-    document.getElementById("popup-caption").textContent = caption;
-    document.getElementById("popup").style.display = "block";
+    const popup = document.getElementById('popup');
+    const img   = document.getElementById('popup-img');
+    img.src = '';           // reset first so the load event fires reliably
+    img.src = src;
+    document.getElementById('popup-caption').textContent = caption;
+    popup.classList.add('open');
+    document.body.style.overflow = 'hidden';
   }
 
-  window.onload = function() {
-    loadMenu('food.html', document.getElementById('foodTab'));
-  };
-</script>
+  function closePopup() {
+    document.getElementById('popup').classList.remove('open');
+    document.body.style.overflow = '';
+  }
 
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en'
-  }, 'google_translate_element');
-}
-</script>
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closePopup(); });
 
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  window.onload = () => loadMenu('food', document.getElementById('foodTab'));
+</script>
 
 </body>
 </html>
