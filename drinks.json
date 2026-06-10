@@ -1,0 +1,280 @@
+{
+    "DRINKS": {
+    "category_translations": {
+      "en": "DRINKS",
+      "es": "BEBIDAS",
+      "fr": "BOISSONS",
+      "de": "GETRÄNKE",
+      "pt": "BEBIDAS",
+      "zh": "饮品"
+    },
+    "items": [
+      {
+        "name": {
+          "en": "Classic Margarita",
+          "es": "Margarita Clásica",
+          "fr": "Margarita Classique",
+          "de": "Klassische Margarita",
+          "pt": "Margarita Clássica",
+          "zh": "经典玛格丽特"
+        },
+        "description": {
+          "en": "House tequila, triple sec, fresh squeezed lime juice, orange juice, and agave. Topped with a salt rim. It can be made into a pitcher.",
+          "es": "Tequila de la casa, triple sec, jugo de limón recién exprimido, jugo de naranja y agave. Coronado con borde de sal. Se puede preparar en jarra.",
+          "fr": "Tequila de la maison, triple sec, jus de lime fraîchement pressé, jus d'orange et agave. Garni d'un rebord de sel. Peut être servi en pichet.",
+          "de": "Haus-Tequila, Triple Sec, frisch gepresster Limettensaft, Orangensaft und Agavendicksaft. Mit einem Salzrand serviert. Auch als Krug erhältlich.",
+          "pt": "Tequila da casa, triple sec, suco de limão espremido na hora, suco de laranja e agave. Coberto com borda de sal. Pode ser servido em jarra.",
+          "zh": "特选龙舌兰、白橙皮酒、现榨青柠汁、橙汁与龙舌兰蜜。杯口缀以盐边。可点整壶。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Jalapeño Margarita",
+          "es": "Margarita de Jalapeño",
+          "fr": "Margarita au Jalapeño",
+          "de": "Jalapeño-Margarita",
+          "pt": "Margarita de Jalapeño",
+          "zh": "墨西哥辣椒玛格丽特"
+        },
+        "description": {
+          "en": "House tequila, fresh jalapeño peppers, triple sec, fresh squeezed lime juice, orange juice, and agave. Topped with a Tajin rim.",
+          "es": "Tequila de la casa, chiles jalapeños frescos, triple sec, jugo de limón recién exprimido, jugo de naranja y agave. Coronado con borde de Tajín.",
+          "fr": "Tequila de la maison, piments jalapeños frais, triple sec, jus de lime fraîchement pressé, jus d'orange et agave. Garni d'un rebord de Tajín.",
+          "de": "Haus-Tequila, frische Jalapeño-Paprika, Triple Sec, frisch gepresster Limettensaft, Orangensaft und Agavendicksaft. Mit einem Tajín-Rand serviert.",
+          "pt": "Tequila da casa, pimentas jalapeño frescas, triple sec, suco de limão espremido na hora, suco de laranja e agave. Coberto com borda de Tajín.",
+          "zh": "特选龙舌兰、新鲜墨西哥辣椒、白橙皮酒、现榨青柠汁、橙汁与龙舌兰蜜。杯口缀以Tajín辣椒盐边。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Flavor Margarita",
+          "es": "Margarita de Sabores",
+          "fr": "Margarita Aromatisée",
+          "de": "Aromatisierte Margarita",
+          "pt": "Margarita de Sabores",
+          "zh": "风味玛格丽特"
+        },
+        "description": {
+          "en": "Mango, Strawberry, Passionfruit. It can be made into a pitcher.",
+          "es": "Mango, Fresa, Fruta de la pasión (Maracuyá). Se puede preparar en jarra.",
+          "fr": "Mangue, Fraise, Fruit de la passion. Peut être servi en pichet.",
+          "de": "Mango, Erdbeere, Passionsfrucht. Auch als Krug erhältlich.",
+          "pt": "Manga, Morango, Maracujá. Pode ser servido em jarra.",
+          "zh": "芒果、草莓、百香果可选。可点整壶。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Cadillac Margarita",
+          "es": "Margarita Cadillac",
+          "fr": "Margarita Cadillac",
+          "de": "Cadillac-Margarita",
+          "pt": "Margarita Cadillac",
+          "zh": "凯迪拉克玛格丽特"
+        },
+        "description": {
+          "en": "Patron Blanco, Cointreau, Grand Marnier, fresh squeezed lime juice, orange juice, and agave. Topped with a salt rim.",
+          "es": "Patrón Blanco, Cointreau, Grand Marnier, jugo de limón recién exprimido, jugo de naranja y agave. Coronado con borde de sal.",
+          "fr": "Patron Blanco, Cointreau, Grand Marnier, jus de lime fraîchement pressé, jus d'orange et agave. Garni d'un rebord de sel.",
+          "de": "Patrón Blanco, Cointreau, Grand Marnier, frisch gepresster Limettensaft, Orangensaft und Agavendicksaft. Mit einem Salzrand serviert.",
+          "pt": "Patrón Blanco, Cointreau, Grand Marnier, suco de limão espremido na hora, suco de laranja e agave. Coberto com borda de sal.",
+          "zh": "培恩银牌龙舌兰（Patron Blanco）、君度橙酒、柑曼怡香橙力娇酒、现榨青柠汁、橙汁与龙舌兰蜜。杯口缀以盐边。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Mojito",
+          "es": "Mojito",
+          "fr": "Mojito",
+          "de": "Mojito",
+          "pt": "Mojito",
+          "zh": "莫吉托"
+        },
+        "description": {
+          "en": "House rum, fresh squeezed lime juice, mint, agave, and seltzer.",
+          "es": "Ron de la casa, jugo de limón recién exprimido, menta, agave y agua con gas.",
+          "fr": "Rhum de la maison, jus de lime fraîchement pressé, menthe, agave et eau pétillante.",
+          "de": "Haus-Rum, frisch gepresster Limettensaft, Minze, Agavendicksaft und Selterswasser.",
+          "pt": "Rum da casa, suco de limão espremido na hora, hortelã, agave e água com gás.",
+          "zh": "特选朗姆酒、现榨青柠汁、薄荷、龙舌兰蜜和苏打水。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Passionfruit Mojito",
+          "es": "Mojito de Maracuyá",
+          "fr": "Mojito au Fruit de la Passion",
+          "de": "Passionsfrucht-Mojito",
+          "pt": "Mojito de Maracujá",
+          "zh": "百香果莫吉托"
+        },
+        "description": {
+          "en": "House rum, passion fruit flavor, fresh squeezed lime juice, mint, agave, and seltzer.",
+          "es": "Ron de la casa, sabor a fruta de la pasión (maracuyá), jugo de limón recién exprimido, menta, agave y agua con gas.",
+          "fr": "Rhum de la maison, arôme de fruit de la passion, jus de lime fraîchement pressé, menthe, agave et eau pétillante.",
+          "de": "Haus-Rum, Passionsfruchtgeschmack, frisch gepresster Limettensaft, Minze, Agavendicksaft und Selterswasser.",
+          "pt": "Rum da casa, sabor de maracujá, suco de limão espremido na hora, hortelã, agave e água com gás.",
+          "zh": "特选朗姆酒、百香果风味果汁、现榨青柠汁、薄荷、龙舌兰蜜和苏打水。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Red Sangria",
+          "es": "Sangría Tinta",
+          "fr": "Sangria Rouge",
+          "de": "Rote Sangria",
+          "pt": "Sangria Tinta",
+          "zh": "红桑格利亚"
+        },
+        "description": {
+          "en": "Red wine, house rum, apple schnapps, cranberry juice, and soda. It can be made into a pitcher.",
+          "es": "Vino tinto, ron de la casa, schnapps de manzana, jugo de arándano y soda. Se puede preparar en jarra.",
+          "fr": "Vin rouge, rhum de la maison, schnapps à la pomme, jus de canneberge et soda. Peut être servi en pichet.",
+          "de": "Rotwein, Haus-Rum, Apfelschnaps, Cranberrysaft und Soda. Auch als Krug erhältlich.",
+          "pt": "Vino tinto, rum da casa, schnapps de maçã, suco de cranberry e soda. Pode ser servido em jarra.",
+          "zh": "红葡萄酒、特选朗姆酒、苹果杜松子酒、蔓越莓汁和苏打水。可点整壶。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "White Sangria",
+          "es": "Sangría Blanca",
+          "fr": "Sangria Blanche",
+          "de": "Weiße Sangria",
+          "pt": "Sangria Branca",
+          "zh": "白桑格利亚"
+        },
+        "description": {
+          "en": "White wine, house rum, peach schnapps, pineapple juice, and soda. It can be made into a pitcher.",
+          "es": "Vino blanco, ron de la casa, schnapps de durazno, jugo de piña y soda. Se puede preparar en jarra.",
+          "fr": "Vin blanc, rhum de la maison, schnapps à la pêche, jus d'ananas et soda. Peut être servi en pichet.",
+          "de": "Weißwein, Haus-Rum, Pfirsichschnaps, Ananassaft und Soda. Auch als Krug erhältlich.",
+          "pt": "Vinho branco, rum da casa, schnapps de pêssego, suco de abacaxi e soda. Pode ser servido em jarra.",
+          "zh": "白葡萄酒、特选朗姆酒、桃子杜松子酒、菠萝汁和苏打水。可点整壶。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Piña Colada",
+          "es": "Piña Colada",
+          "fr": "Piña Colada",
+          "de": "Piña Colada",
+          "pt": "Piña Colada",
+          "zh": "椰林飘香 (Piña Colada)"
+        },
+        "description": {
+          "en": "House rum, coconut cream, pineapple juice.",
+          "es": "Ron de la casa, crema de coco, jugo de piña.",
+          "fr": "Rhum de la maison, crème de coco, jus d'ananas.",
+          "de": "Haus-Rum, Kokoscreme, Ananassaft.",
+          "pt": "Rum da casa, creme de coco, suco de abacaxi.",
+          "zh": "特选朗姆酒、椰浆和菠萝汁。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Red Wine",
+          "es": "Vino Tinto",
+          "fr": "Vin Rouge",
+          "de": "Rotwein",
+          "pt": "Vinho Tinto",
+          "zh": "红葡萄酒"
+        },
+        "description": {
+          "en": "Cabernet Sauvignon, Merlot.",
+          "es": "Cabernet Sauvignon, Merlot.",
+          "fr": "Cabernet Sauvignon, Merlot.",
+          "de": "Cabernet Sauvignon, Merlot.",
+          "pt": "Cabernet Sauvignon, Merlot.",
+          "zh": "赤霞珠 (Cabernet Sauvignon)、梅洛 (Merlot)。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "White Wine",
+          "es": "Vino Blanco",
+          "fr": "Vin Blanc",
+          "de": "Weißwein",
+          "pt": "Vinho Branco",
+          "zh": "白葡萄酒"
+        },
+        "description": {
+          "en": "Chardonnay, Pinot Grigio, Prosecco.",
+          "es": "Chardonnay, Pinot Grigio, Prosecco.",
+          "fr": "Chardonnay, Pinot Grigio, Prosecco.",
+          "de": "Chardonnay, Pinot Grigio, Prosecco.",
+          "pt": "Chardonnay, Pinot Grigio, Prosecco.",
+          "zh": "霞多丽 (Chardonnay)、灰皮诺 (Pinot Grigio)、普罗塞克起泡酒 (Prosecco)。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Beers",
+          "es": "Cervezas",
+          "fr": "Bières",
+          "de": "Biere",
+          "pt": "Cervejas",
+          "zh": "啤酒"
+        },
+        "description": {
+          "en": "Corona, Pacifico, Tecate, Modelo Especial, Negra Modelo, XX - Amber, Corona Light, Heineken.",
+          "es": "Corona, Pacifico, Tecate, Modelo Especial, Negra Modelo, Dos Equis (XX) Amber, Corona Light, Heineken.",
+          "fr": "Corona, Pacifico, Tecate, Modelo Especial, Negra Modelo, XX - Amber, Corona Light, Heineken.",
+          "de": "Corona, Pacifico, Tecate, Modelo Especial, Negra Modelo, XX - Amber, Corona Light, Heineken.",
+          "pt": "Corona, Pacifico, Tecate, Modelo Especial, Negra Modelo, XX - Amber, Corona Light, Heineken.",
+          "zh": "科罗娜 (Corona)、太平洋啤酒 (Pacifico)、特卡特啤酒 (Tecate)、时代模特儿 (Modelo Especial)、黑模特儿 (Negra Modelo)、双叉琥珀啤酒 (XX - Amber)、淡科罗娜 (Corona Light)、喜力 (Heineken)。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Homemade Drinks",
+          "es": "Bebidas Caseras",
+          "fr": "Boissons Maison",
+          "de": "Hausgemachte Getränke",
+          "pt": "Bebidas Caseiras",
+          "zh": "自制饮品"
+        },
+        "description": {
+          "en": "Lemonade, Unsweetened Iced Tea, Hibiscus Tea, Watermelon Juice, 50/50 Lemonade Iced Tea.",
+          "es": "Limonada, Té helado sin azúcar, Agua de Jamaica (té de hibisco), Jugo de sandía, Mitad limonada y mitad té helado.",
+          "fr": "Limonade, Thé glacé non sucré, Thé à l'hibiscus, Jus de pastèque, Mélange 50/50 Limonade et Thé glacé.",
+          "de": "Limonade, Ungesüßter Eistee, Hibiskustee, Wassermelonensaft, 50/50 Limonaden-Eistee.",
+          "pt": "Limonada, Chá gelado sem açúcar, Chá de hibisco, Suco de melancia, Mistura 50/50 Limonada e Chá gelado.",
+          "zh": "柠檬水、无糖冰茶、洛神花茶、西瓜汁、柠檬冰茶（半柠檬水半冰茶）。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Mexican Sodas",
+          "es": "Refrescos Mexicanos",
+          "fr": "Sodas Mexicains",
+          "de": "Mexikanische Limonaden",
+          "pt": "Refrigerantes Mexicanos",
+          "zh": "墨西哥汽水"
+        },
+        "description": {
+          "en": "Mexican Coke, Jarritos: Pineapple, Mandarin, Tamarind, and Grapefruit.",
+          "es": "Coca-Cola Mexicana, Jarritos: Piña, Mandarina, Tamarindo y Toronja.",
+          "fr": "Coca Mexicain, Jarritos : Ananas, Mandarine, Tamarin et Pamplemousse.",
+          "de": "Mexikanische Cola, Jarritos: Ananas, Mandarine, Tamarinde und Elfenbein/Grapefruit.",
+          "pt": "Coca Mexicana, Jarritos: Abacaxi,text Mandarina, Tamarindo e Toranja.",
+          "zh": "墨西哥可乐，哈利托斯（Jarritos汽水）：菠萝味、柑橘味、酸豆味（罗望子）及西柚味。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      }
+    ]
+  }
+}

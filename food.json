@@ -1,0 +1,706 @@
+{
+  "STARTERS": {
+    "category_translations": {
+      "en": "STARTERS",
+      "es": "ENTRADAS",
+      "fr": "ENTRÉES",
+      "de": "VORSPEISEN",
+      "pt": "ENTRADAS",
+      "zh": "前菜"
+    },
+    "items": [
+      {
+        "name": {
+          "en": "Azteca Soup",
+          "es": "Sopa Azteca",
+          "fr": "Soupe Azteca",
+          "de": "Azteca-Suppe",
+          "pt": "Sopa Azteca",
+          "zh": "阿兹特克汤 (Azteca Soup)"
+        },
+        "description": {
+          "en": "Chicken tortilla soup with vegetables, cheese, and diced avocado.",
+          "es": "Sopa de tortilla de pollo con verduras, queso y aguacate en dados.",
+          "fr": "Soupe de tortilla au poulet avec légumes, fromage et avocat en dés.",
+          "de": "Hühner-Tortilla-Suppe mit Gemüse, Käse und gewürfelter Avocado.",
+          "pt": "Sopa de tortilha de frango com legumes, queijo e abacate em cubos.",
+          "zh": "鸡肉玉米饼汤，搭配蔬菜、芝士和牛油果丁。"
+        },
+        "image":"./food/azteca_soup.png"
+      },
+      {
+        "name": {
+          "en": "Salsa & Chips",
+          "es": "Salsa y Totopos",
+          "fr": "Salsa et Chips",
+          "de": "Salsa & Chips",
+          "pt": "Salsa e Totopos",
+          "zh": "莎莎酱与玉米片"
+        },
+        "description": {
+          "en": "Fresh salsa, onions, cilantro, and jalapeño peppers. Served with chips.",
+          "es": "Salsa fresca, cebolla, cilantro y chiles jalapeños. Servido con totopos.",
+          "fr": "Salsa fraîche, oignons, coriandre et piments jalapeños. Servi avec des chips de tortilla.",
+          "de": "Frische Salsa, Zwiebeln, Koriander und Jalapeño-Paprika. Serviert mit Tortilla-Chips.",
+          "pt": "Salsa fresca, cebola, coentro e pimenta jalapeño. Servido com totopos.",
+          "zh": "新鲜莎莎酱、洋葱、香菜和墨西哥辣椒。附带玉米片。"
+        },
+        "image":"./food/salsa_chips.png"
+      },
+      {
+        "name": {
+          "en": "Guacamole & Chips",
+          "es": "Guacamole y Totopos",
+          "fr": "Guacamole et Chips",
+          "de": "Guacamole & Chips",
+          "pt": "Guacamole e Totopos",
+          "zh": "牛油果酱与玉米片"
+        },
+        "description": {
+          "en": "A blend of fresh avocados, onions, cilantro, and jalapeño peppers. Served with chips.",
+          "es": "Una mezcla de aguacates frescos, cebolla, cilantro y chiles jalapeños. Servido con totopos.",
+          "fr": "Un mélange d'avocats frais, d'oignons, de coriandre et de piments jalapeños. Servi avec des chips de tortilla.",
+          "de": "Eine Mischung aus frischen Avocados, Zwiebeln, Koriander und Jalapeño-Paprika. Serviert mit Tortilla-Chips.",
+          "pt": "Uma mistura de abacates frescos, cebola, coentro e pimenta jalapeño. Servido com totopos.",
+          "zh": "由新鲜牛油果、洋葱、香菜和墨西哥辣椒调配而成。附带玉米片。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Flautas",
+          "es": "Flautas",
+          "fr": "Flautas",
+          "de": "Flautas",
+          "pt": "Flautas",
+          "zh": "弗劳塔斯脆卷 (Flautas)"
+        },
+        "description": {
+          "en": "Three crispy corn tortillas stuffed with chicken. Served with lettuce, topped with sour cream, cheese, pico de gallo, and tomatillo salsa.",
+          "es": "Tres tortillas de maíz crujientes rellenas de pollo. Servidas con lechuga, coronadas con crema agria, queso, pico de gallo y salsa de tomatillo.",
+          "fr": "Trois tortillas de maïs croustillantes farcies au poulet. Servies avec de la laitue, nappées de crème sure, de fromage, de pico de gallo et de salsa de tomates vertes.",
+          "de": "Drei knusprige Maistortillas gefüllt mit Hühnchen. Serviert mit Salat, garniert mit Sauerrahm, Käse, Pico de Gallo und Tomatillo-Salsa.",
+          "pt": "Três tortilhas de milho crocantes recheadas com frango. Servidas com alface, cobertas com natas azedas, queijo, pico de gallo e salsa de tomatillo.",
+          "zh": "三卷包裹着鸡肉的香脆玉米饼。搭配生菜，表面覆有酸奶油、芝士、公鸡嘴酱（pico de gallo）和绿番茄沙司。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      }
+    ]
+  },
+  "QUESADILLAS": {
+    "category_translations": {
+      "en": "QUESADILLAS",
+      "es": "QUESADILLAS",
+      "fr": "QUESADILLAS",
+      "de": "QUESADILLAS",
+      "pt": "QUESADILLAS",
+      "zh": "酥饼 (Quesadillas)"
+    },
+    "items": [
+      {
+        "name": {
+          "en": "Cheese Quesadilla",
+          "es": "Quesadilla de Queso",
+          "fr": "Quesadilla au Fromage",
+          "de": "Käse-Quesadilla",
+          "pt": "Quesadilla de Queijo",
+          "zh": "芝士酥饼"
+        },
+        "description": {
+          "en": "Flour tortillas filled with cheese, topped with guacamole.",
+          "es": "Tortillas de harina rellenas de queso, coronadas con guacamole.",
+          "fr": "Tortillas de blé farcies au fromage, nappées de guacamole.",
+          "de": "Weizentortillas gefüllt mit Käse, garniert mit Guacamole.",
+          "pt": "Tortilhas de trigo recheadas com queijo, cobertas com guacamole.",
+          "zh": "小麦面饼夹着浓郁芝士，表面搭配牛油果酱。"
+        },
+        "image":"./food/quesadilla.png"
+      },
+      {
+        "name": {
+          "en": "Spinach & Mushroom Quesadilla",
+          "es": "Quesadilla de Espinacas y Champiñones",
+          "fr": "Quesadilla aux Épinards et Champignons",
+          "de": "Spinat- & Pilz-Quesadilla",
+          "pt": "Quesadilla de Espinafre e Cogumelos",
+          "zh": "菠菜蘑菇酥饼"
+        },
+        "description": {
+          "en": "Spinach and Mushroom mix in flour tortillas filled with cheese, topped with guacamole.",
+          "es": "Mezcla de espinacas y champiñones en tortillas de harina rellenas de queso, coronadas con guacamole.",
+          "fr": "Mélange d'épinards et de champignons dans des tortillas de blé farcies au fromage, nappées de guacamole.",
+          "de": "Mischung aus Spinat und Pilzen in Weizentortillas gefüllt mit Käse, garniert mit Guacamole.",
+          "pt": "Mistura de espinafre e cogumelos em tortilhas de trigo recheadas com queijo, cobertas com guacamole.",
+          "zh": "面饼内裹有菠菜与蘑菇拌料及芝士，表面配以牛油果酱。"
+        },
+        "image":"./food/quesadilla.png"
+      },
+      {
+        "name": {
+          "en": "Grilled Chicken Quesadilla",
+          "es": "Quesadilla de Pollo Asado",
+          "fr": "Quesadilla au Poulet Grillé",
+          "de": "Gegrilltes Hähnchen-Quesadilla",
+          "pt": "Quesadilla de Frango Grelhado",
+          "zh": "烤鸡肉酥饼"
+        },
+        "description": {
+          "en": "Grilled chicken in flour tortillas filled with cheese, topped with guacamole.",
+          "es": "Pollo asado en tortillas de harina rellenas de queso, coronadas con guacamole.",
+          "fr": "Poulet grillé dans des tortillas de blé farcies au fromage, nappées de guacamole.",
+          "de": "Gegrilltes Hähnchen in Weizentortillas gefüllt mit Käse, garniert mit Guacamole.",
+          "pt": "Frango grelhado em tortilhas de trigo recheadas com queijo, cobertas com guacamole.",
+          "zh": "面饼内包裹烤鸡肉与芝士，表面搭配牛油果酱。"
+        },
+        "image":"./food/quesadilla.png"
+      },
+      {
+        "name": {
+          "en": "Grilled Steak Quesadilla",
+          "es": "Quesadilla de Carne Asada",
+          "fr": "Quesadilla au Steak Grillé",
+          "de": "Gegrilltes Steak-Quesadilla",
+          "pt": "Quesadilla de Carne Grelhada",
+          "zh": "烤牛排酥饼"
+        },
+        "description": {
+          "en": "Grilled steak in flour tortillas filled with cheese, topped with guacamole.",
+          "es": "Carne asada en tortillas de harina rellenas de queso, coronadas con guacamole.",
+          "fr": "Steak grillé dans des tortillas de blé farcies au fromage, nappées de guacamole.",
+          "de": "Gegrilltes Steak in Weizentortillas gefüllt mit Käse, garniert mit Guacamole.",
+          "pt": "Carne grelhada em tortilhas de trigo recheadas com queijo, cobertas com guacamole.",
+          "zh": "面饼内包裹着切片烤牛排与芝士，外带牛油果酱。"
+        },
+        "image":"./food/quesadilla.png"
+      },
+      {
+        "name": {
+          "en": "Shrimp Quesadilla",
+          "es": "Quesadilla de Camarones",
+          "fr": "Quesadilla aux Crevettes",
+          "de": "Garnelen-Quesadilla",
+          "pt": "Quesadilla de Camarão",
+          "zh": "鲜虾酥饼"
+        },
+        "description": {
+          "en": "Sauteed shrimp in a chipotle sauce in flour tortillas filled with cheese. Topped with guacamole.",
+          "es": "Camarones salteados en salsa chipotle dentro de tortillas de harina rellenas de queso. Coronada con guacamole.",
+          "fr": "Crevettes sautées dans une sauce chipotle dans des tortillas de blé farcies au fromage. Nappée de guacamole.",
+          "de": "Garnelen in Chipotle-Sauce geschwenkt, in mit Käse gefüllten Weizentortillas. Garniert mit Guacamole.",
+          "pt": "Camarões salteados em molho chipotle em tortilhas de trigo recheadas com queijo. Coberta com guacamole.",
+          "zh": "小麦面饼包入烟熏辣椒酱（chipotle）风味的炒虾与芝士。表面附有牛油果酱。"
+        },
+        "image":"./food/quesadilla.png"
+      }
+    ]
+  },
+  "TACOS": {
+    "category_translations": {
+      "en": "TACOS",
+      "es": "TACOS",
+      "fr": "TACOS",
+      "de": "TACOS",
+      "pt": "TACOS",
+      "zh": "塔可 (Tacos)"
+    },
+    "items": [
+      {
+        "name": {
+          "en": "Grilled Chicken or Steak Tacos",
+          "es": "Tacos de Pollo o Carne Asada",
+          "fr": "Tacos au Poulet ou Steak Grillé",
+          "de": "Tacos mit gegrilltem Hähnchen oder Steak",
+          "pt": "Tacos de Frango ou Carne Grelhada",
+          "zh": "烤鸡肉或烤牛排塔可"
+        },
+        "description": {
+          "en": "Two chicken or steak tacos served with cilantro, tomatillo salsa, and guacamole. Served with rice and beans.",
+          "es": "Dos tacos de pollo o carne servidos con cilantro, salsa de tomatillo y guacamole. Servido con arroz y frijoles.",
+          "fr": "Deux tacos au poulet ou au steak servis avec coriandre, salsa de tomates vertes et guacamole. Accompagnés de riz et de haricots.",
+          "de": "Zwei Tacos mit Hähnchen oder Steak, serviert mit Koriander, Tomatillo-Salsa und Guacamole. Dazu gibt es Reis und Bohnen.",
+          "pt": "Dois tacos de frango ou carne servidos com coentro, salsa de tomatillo e guacamole. Acompanha arroz e feijão.",
+          "zh": "两只鸡肉或牛排塔可，配以香菜、绿番茄沙司和牛油果酱。附送米饭和豆泥。"
+        },
+        "image":"./food/tacos.png"
+      },
+      {
+        "name": {
+          "en": "Shrimp Tacos",
+          "es": "Tacos de Camarón",
+          "fr": "Tacos aux Crevettes",
+          "de": "Garnelen-Tacos",
+          "pt": "Tacos de Camarão",
+          "zh": "鲜虾塔可"
+        },
+        "description": {
+          "en": "Two shrimp tacos served with cilantro, tomatillo salsa, and guacamole. Served with rice and beans.",
+          "es": "Dos tacos de camarón servidos con cilantro, salsa de tomatillo y guacamole. Servido con arroz y frijoles.",
+          "fr": "Deux tacos aux crevettes servis avec coriandre, salsa de tomates vertes et guacamole. Accompagnés de riz et de haricots.",
+          "de": "Zwei Garnelen-Tacos serviert mit Koriander, Tomatillo-Salsa und Guacamole. Dazu gibt es Reis und Bohnen.",
+          "pt": "Dois tacos de camarão servidos com coentro, salsa de tomatillo e guacamole. Acompanha arroz e feijão.",
+          "zh": "两只鲜虾塔可，饰以香菜、绿番茄沙司与牛油果酱。附赠米饭和豆子。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Fish Tacos",
+          "es": "Tacos de Pescado",
+          "fr": "Tacos au Poisson",
+          "de": "Fisch-Tacos",
+          "pt": "Tacos de Peixe",
+          "zh": "鱼肉塔可"
+        },
+        "description": {
+          "en": "Two fish tacos in flour tortillas filled with iceberg lettuce, pico de gallo, tomatillo salsa, and avocado. Served with rice and beans.",
+          "es": "Dos tacos de pescado en tortillas de harina rellenos de lechuga iceberg, pico de gallo, salsa de tomatillo y aguacate. Servido con arroz y frijoles.",
+          "fr": "Deux tacos au poisson dans des tortillas de blé, garnis de laitue iceberg, pico de gallo, salsa de tomates vertes et avocat. Accompagnés de riz et de haricots.",
+          "de": "Zwei Fisch-Tacos in Weizentortillas, gefüllt mit Eissalat, Pico de Gallo, Tomatillo-Salsa und Avocado. Dazu gibt es Reis und Bohnen.",
+          "pt": "Dois tacos de peixe em tortilhas de trigo recheados com alface iceberg, pico de gallo, salsa de tomatillo e abacate. Acompanha arroz e feijão.",
+          "zh": "两只小麦饼鱼肉塔可，内含卷心生菜、公鸡嘴酱、绿番茄沙司和牛油果。附奉米饭和豆泥。"
+        },
+        "image":"./food/fish_tacos.png"
+      }
+    ]
+  },
+  "BURRITOS": {
+    "category_translations": {
+      "en": "BURRITOS",
+      "es": "BURRITOS",
+      "fr": "BURRITOS",
+      "de": "BURRITOS",
+      "pt": "BURRITOS",
+      "zh": "卷饼 (Burritos)"
+    },
+    "items": [
+      {
+        "name": {
+          "en": "Grilled Chicken or Steak Burrito",
+          "es": "Burrito de Pollo o Carne Asada",
+          "fr": "Burrito au Poulet ou Steak Grillé",
+          "de": "Burrito mit gegrilltem Hähnchen oder Steak",
+          "pt": "Burrito de Frango ou Carne Grelhada",
+          "zh": "烤鸡肉或烤牛排卷饼"
+        },
+        "description": {
+          "en": "Grilled chicken or steak with rice, pinto beans, lettuce, cheese, sour cream, pico de gallo, and guacamole. Wrapped in a flour tortilla.",
+          "es": "Pollo o carne asada con arroz, frijoles pintos, lechuga, queso, crema agria, pico de gallo y guacamole. Envuelto en una tortilla de harina.",
+          "fr": "Poulet ou steak grillé avec riz, haricots pinto, laitue, fromage, crème sure, pico de gallo et guacamole. Enveloppé dans une tortilla de blé.",
+          "de": "Gegrilltes Hähnchen oder Steak mit Reis, Wachtelbohnen (Pinto), Salat, Käse, Sauerrahm, Pico de Gallo und Guacamole. In eine Weizentortilla gewickelt.",
+          "pt": "Frango ou carne grelhada com arroz, feijão carioca, alface, queijo, natas azedas, pico de gallo e guacamole. Enrolado em uma tortilha de trigo.",
+          "zh": "烤鸡肉或牛排，搭配米饭、斑豆、生菜、芝士、酸奶油、公鸡嘴酱和牛油果酱。用小麦面饼包裹。"
+        },
+        "image":"./food/burrito.png"
+      },
+      {
+        "name": {
+          "en": "Vegetable Burrito",
+          "es": "Burrito de Vegetales",
+          "fr": "Burrito aux Légumes",
+          "de": "Gemüse-Burrito",
+          "pt": "Burrito de Legumes",
+          "zh": "蔬菜卷饼"
+        },
+        "description": {
+          "en": "Vegetable mix with rice, pinto beans, lettuce, cheese, sour cream, pico de gallo, and guacamole. Wrapped in a flour tortilla.",
+          "es": "Mezcla de vegetales con arroz, frijoles pintos, lechuga, queso, crema agria, pico de gallo y guacamole. Envuelto en una tortilla de harina.",
+          "fr": "Mélange de légumes avec riz, haricots pinto, laitue, fromage, crème sure, pico de gallo et guacamole. Enveloppé dans une tortilla de blé.",
+          "de": "Gemüsemischung mit Reis, Wachtelbohnen (Pinto), Salat, Käse, Sauerrahm, Pico de Gallo und Guacamole. In eine Weizentortilla gewickelt.",
+          "pt": "Mistura de legumes com arroz, feijão carioca, alface, queijo, natas azedas, pico de gallo e guacamole. Enrolado em uma tortilha de trigo.",
+          "zh": "综合蔬菜配米饭、斑豆、生菜、芝士、酸奶油、公鸡嘴酱和牛油果酱。用小麦面饼包裹。"
+        },
+        "image":"./food/burrito.png"
+      },
+      {
+        "name": {
+          "en": "Shrimp Burrito",
+          "es": "Burrito de Camarón",
+          "fr": "Burrito aux Crevettes",
+          "de": "Garnelen-Burrito",
+          "pt": "Burrito de Camarão",
+          "zh": "鲜虾卷饼"
+        },
+        "description": {
+          "en": "Sauteed shrimp in a chipotle sauce. With lettuce, cheese, sour cream, and guacamole. Wrapped in a flour tortilla. Served with rice and beans on the side.",
+          "es": "Camarones salteados en salsa chipotle. Con lechuga, queso, crema agria y guacamole. Envuelto en una tortilla de harina. Servido con arroz y frijoles a un lado.",
+          "fr": "Crevettes sautées dans une sauce chipotle. Avec laitue, fromage, crème sure et guacamole. Enveloppé dans une tortilla de blé. Servi avec du riz et des haricots en accompagnement.",
+          "de": "Garnelen in Chipotle-Sauce geschwenkt. Mit Salat, Käse, Sauerrahm und Guacamole. In eine Weizentortilla gewickelt. Serviert mit Reis und Bohnen als Beilage.",
+          "pt": "Camarões salteados em molho chipotle. Com alface, queijo, natas azedas e guacamole. Enrolado em uma tortilha de trigo. Acompanha arroz e feijão à parte.",
+          "zh": "烟熏辣椒酱风味的炒虾，伴以生菜、芝士、酸奶油和牛油果酱。用小麦面饼包裹，旁附米饭及豆子。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      }
+    ]
+  },
+  "TAJIN FAVORITES": {
+    "category_translations": {
+      "en": "TAJIN FAVORITES",
+      "es": "ESPECIALIDADES DE LA CASA",
+      "fr": "LES FAVORIS DU TAJIN",
+      "de": "TAJIN SPEZIALITÄTEN",
+      "pt": "FAVORITOS DO TAJIN",
+      "zh": "招牌特色菜"
+    },
+    "items": [
+      {
+        "name": {
+          "en": "Carne Asada",
+          "es": "Carne Asada",
+          "fr": "Carne Asada",
+          "de": "Carne Asada",
+          "pt": "Carne Asada",
+          "zh": "卡内阿萨达烤牛排 (Carne Asada)"
+        },
+        "description": {
+          "en": "Grilled steak served with rice, black beans, guacamole, sauteed onions, and tortillas.",
+          "es": "Filete de carne a la parrilla servido con arroz, frijoles negros, guacamole, cebollas salteadas y tortillas.",
+          "fr": "Steak grillé servi avec du riz, des haricots noirs, du guacamole, des oignons sautés et des tortillas.",
+          "de": "Gegrilltes Steak serviert mit Reis, schwarzen Bohnen, Guacamole, sautierten Zwiebeln und Tortillas.",
+          "pt": "Bife grelhado servido com arroz, feijão preto, guacamole, cebola salteada e tortilhas.",
+          "zh": "经典烤牛排，配有米饭、黑豆泥、牛油果酱、炒洋葱 and 墨西哥薄饼。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Grilled Pork Chops",
+          "es": "Chuletas de Cerdo a la Parrilla",
+          "fr": "Côtelettes de Porc Grillées",
+          "de": "Gegrillte Schweinekoteletts",
+          "pt": "Chuletas de Porco Grelhadas",
+          "zh": "烤猪排"
+        },
+        "description": {
+          "en": "Served with rice, black beans, and tortillas.",
+          "es": "Servido con arroz, frijoles negros y tortillas.",
+          "fr": "Servi avec du riz, des haricots noirs et des tortillas.",
+          "de": "Serviert mit Reis, schwarzen Bohnen und Tortillas.",
+          "pt": "Servido com arroz, feijão preto e tortilhas.",
+          "zh": "附带米饭、黑豆泥和墨西哥薄饼。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Tajin Chicken",
+          "es": "Pollo Tajín",
+          "fr": "Poulet Tajin",
+          "de": "Tajin-Hähnchen",
+          "pt": "Frango Tajin",
+          "zh": "塔金鸡肉 (Tajin Chicken)"
+        },
+        "description": {
+          "en": "Sauteed chicken breast in light tomato sauce, topped with cheese. Served with rice and beans.",
+          "es": "Pechuga de pollo salteada en salsa ligera de tomate, coronada con queso. Servida con arroz y frijoles.",
+          "fr": "Poitrine de poulet sautée dans une sauce tomate légère, nappée de fromage. Servie avec du riz et des haricots.",
+          "de": "Sautierte Hähnchenbrust in leichter Tomatensauce, mit Käse überbacken. Serviert mit Reis und Bohnen.",
+          "pt": "Peito de frango salteado em molho leve de tomate, coberto com queijo. Servido com arroz e feijão.",
+          "zh": "嫩煎鸡胸肉裹于清爽番茄沙司中，面覆浓芝士。搭配米饭与豆泥。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Chicken and Shrimp Salad",
+          "es": "Ensalada de Pollo y Camarón",
+          "fr": "Salade au Poulet et Crevettes",
+          "de": "Hähnchen- und Garnelensalat",
+          "pt": "Salada de Frango e Camarão",
+          "zh": "鸡肉鲜虾沙拉"
+        },
+        "description": {
+          "en": "Served over romaine lettuce, carrots, broccoli, and avocado slices. House dressing on the side.",
+          "es": "Servido sobre lechuga romana, zanahorias, brócoli y rodajas de aguacate. Aderezo de la casa a un lado.",
+          "fr": "Servi sur de la laitue romaine, des carottes, du brocoli et des tranches d'avocat. Vinaigrette maison à part.",
+          "de": "Serviert auf Römersalat, Karotten, Brokkoli und Avocadoscheiben. Hausdressing als Beilage.",
+          "pt": "Servido sobre alface romana, cenoura, brócolis e fatias de abacate. Molho da casa à parte.",
+          "zh": "铺在罗马生菜、胡萝卜、西兰花及牛油果片上。独家特调酱汁另附。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Grilled Chicken or Steak Chimichanga",
+          "es": "Chimichanga de Pollo o Carne Asada",
+          "fr": "Chimichanga au Poulet ou Steak Grillé",
+          "de": "Chimichanga mit gegrilltem Hähnchen oder Steak",
+          "pt": "Chimichanga de Frango ou Carne Grelhada",
+          "zh": "烤鸡肉或烤牛排奇米查加卷饼"
+        },
+        "description": {
+          "en": "Two fried tortilla rolls with grilled chicken (or steak), beans, and cheese, topped with sour cream, pico de gallo, and lettuce. Includes rice and beans.",
+          "es": "Dos rollos de tortilla frita con pollo asado (o carne), frijoles y queso, coronados con crema agria, pico de gallo y lechuga. Incluye arroz y frijoles.",
+          "fr": "Deux rouleaux de tortillas frites garnis de poulet grillé (ou steak), haricots et fromage, nappées de crème sure, pico de gallo et laitue. Comprend riz et haricots.",
+          "de": "Zwei frittierte Tortilla-Rollen mit gegrilltem Hähnchen (oder Steak), Bohnen und Käse, garniert mit Sauerrahm, Pico de Gallo und Salat. Inklusive Reis und Bohnen.",
+          "pt": "Dois rolos de tortilha frita com frango grelhado (ou carne), feijão e queijo, cobertos com natas azedas, pico de gallo e alface. Inclui arroz e feijão.",
+          "zh": "两只油炸卷饼，内裹烤鸡肉（或牛排）、豆泥和芝士，表面覆以酸奶油、公鸡嘴酱及生菜。包含米饭和豆子。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Steak Rancheros",
+          "es": "Bistec a la Ranchera",
+          "fr": "Steak Rancheros",
+          "de": "Steak Rancheros",
+          "pt": "Bife Rancheros",
+          "zh": "牧场风味牛排 (Steak Rancheros)"
+        },
+        "description": {
+          "en": "Sauteed steak with onions, tomatoes, and jalapeños. Served with rice, black beans, and corn tortillas.",
+          "es": "Filete salteado con cebolla, tomates y jalapeños. Servido con arroz, frijoles negros y tortillas de maíz.",
+          "fr": "Steak sauté avec oignons, tomates et jalapeños. Servi avec du riz, des haricots noirs et des tortillas de maïs.",
+          "de": "Sautiertes Steak mit Zwiebeln, Tomaten und Jalapeños. Serviert mit Reis, schwarzen Bohnen und Maistortillas.",
+          "pt": "Bife salteado com cebola, tomate e jalapeños. Servido com arroz, feijão preto e tortilhas de milho.",
+          "zh": "爆炒牛排配洋葱、西红柿和墨西哥辣椒。附米饭、黑豆泥和玉米薄饼。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Camarones Al Ajillo",
+          "es": "Camarones al Ajillo",
+          "fr": "Camarones Al Ajillo",
+          "de": "Camarones Al Ajillo",
+          "pt": "Camarões ao Alho",
+          "zh": "大蒜橄榄油鲜虾 (Camarones Al Ajillo)"
+        },
+        "description": {
+          "en": "Sauteed shrimp (6) with white wine, olive oil, and garlic-cilantro sauce. Served with rice and salad.",
+          "es": "Camarones salteados (6) con vino blanco, aceite de oliva y salsa de ajo y cilantro. Servido con arroz y ensalada.",
+          "fr": "Crevettes sautées (6) au vin blanc, huile d'olive et sauce ail-coriandre. Servies avec du riz et de la salade.",
+          "de": "Sautierte Garnelen (6) mit Weißwein, Olivenöl und Knoblauch-Koriander-Sauce. Serviert mit Reis und Salat.",
+          "pt": "Camarões salteados (6) com vinho branco, azeite de oliva e molho de alho e coentro. Servido com arroz e salada.",
+          "zh": "六只炒大虾，加入白葡萄酒、橄榄油和大蒜香菜酱。附带米饭和沙拉。"
+        },
+        "image":"./food/camaron_ajillo.png"
+      },
+      {
+        "name": {
+          "en": "Mexican Salad",
+          "es": "Ensalada Mexicana",
+          "fr": "Salade Mexicaine",
+          "de": "Mexikanischer Salat",
+          "pt": "Salada Mexicana",
+          "zh": "墨西哥沙拉"
+        },
+        "description": {
+          "en": "Grilled chicken over lettuce, broccoli, tomatoes, carrots, cheese, and two avocado slices. Served with house dressing on the side.",
+          "es": "Pollo asado sobre lechuga, brócoli, tomates, zanahorias, queso y dos rodajas de aguacate. Servido con aderezo de la casa a un lado.",
+          "fr": "Poulet grillé sur laitue, brocoli, tomates, carottes, fromage et deux tranches d'avocat. Servi avec la vinaigrette maison à part.",
+          "de": "Gegrilltes Hähnchen auf Salat, Brokkoli, Tomaten, Karotten, Käse und zwei Avocadoscheiben. Hausdressing separat serviert.",
+          "pt": "Frango grelhado sobre alface, brócolis, tomate, cenoura, queijo e duas fatias de abacate. Servido com molho da casa à parte.",
+          "zh": "烤鸡肉配生菜、西兰花、西红柿、胡萝卜、芝士和两片牛油果。特调独家酱汁另附。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      }
+    ]
+  },
+  "SALADS": {
+    "category_translations": {
+      "en": "SALADS",
+      "es": "ENSALADAS",
+      "fr": "SALADES",
+      "de": "SALATE",
+      "pt": "SALADAS",
+      "zh": "沙拉"
+    },
+    "items": [
+      {
+        "name": {
+          "en": "Taco Salad",
+          "es": "Ensalada de Taco",
+          "fr": "Salade Taco",
+          "de": "Taco-Salat",
+          "pt": "Salada de Taco",
+          "zh": "塔可沙拉"
+        },
+        "description": {
+          "en": "Choice of Grilled Chicken or Steak over lettuce, pico de gallo, broccoli, tomatoes, carrots, cheese, and avocado served on a taco shell.",
+          "es": "Selección de pollo asado o carne sobre lechuga, pico de gallo, brócoli, tomates, zanahorias, queso y aguacate servido en un tazón de tortilla crujiente.",
+          "fr": "Choix de poulet grillé ou de steak sur laitue, pico de gallo, brocoli, toutes tomates, carottes, fromage et avocat, servi dans une coquille de taco croustillante.",
+          "de": "Wahlweise gegrilltes Hähnchen oder Steak auf Salat, Pico de Gallo, Brokkoli, Tomaten, Karotten, Käse und Avocado, serviert in einer Tacoschale.",
+          "pt": "Escolha de frango grelhado ou carne sobre alface, pico de gallo, brócolis, tomate, cenoura, queijo e abacate servido em uma casquinha de taco.",
+          "zh": "可选烤鸡肉或牛排，铺在生菜、公鸡嘴酱、西兰花、西红柿、胡萝卜、芝士和牛油果上，盛装在香脆的塔可面饼碗中。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Shrimp Taco Salad",
+          "es": "Ensalada de Taco con Camarones",
+          "fr": "Salade Taco aux Crevettes",
+          "de": "Garnelen-Taco-Salat",
+          "pt": "Salada de Taco com Camarão",
+          "zh": "鲜虾塔可沙拉"
+        },
+        "description": {
+          "en": "Grilled shrimp (6) over lettuce, pico de gallo, broccoli, tomatoes, carrots, cheese, and avocado served on a taco shell.",
+          "es": "Camarones a la parrilla (6) sobre lechuga, pico de gallo, brócoli, tomates, zanahorias, queso y aguacate servido en un tazón de tortilla crujiente.",
+          "fr": "Crevettes grillées (6) sur laitue, pico de gallo, brocoli, tomates, carottes, fromage et avocat, servi dans une coquille de taco croustillante.",
+          "de": "Gegrillte Garnelen (6) auf Salat, Pico de Gallo, Brokkoli, Tomaten, Karotten, Käse und Avocado, serviert in einer Tacoschale.",
+          "pt": "Camarões grelhados (6) sobre alface, pico de gallo, brócolis, tomate, cenoura, queijo e abacate servido em uma casquinha de taco.",
+          "zh": "六只烤鲜虾铺在生菜、公鸡嘴酱、西兰花、西红柿、胡萝卜、芝士和牛油果上，并盛在香脆塔可碗内。"
+        },
+        "image":"./food/shp_taco_salad.png"
+      },
+      {
+        "name": {
+          "en": "Grilled Salmon",
+          "es": "Salmón a la Parrilla",
+          "fr": "Saumon Grillé",
+          "de": "Gegrillter Lachs",
+          "pt": "Salmão Grelhado",
+          "zh": "烤三文鱼"
+        },
+        "description": {
+          "en": "Marinated salmon served over salad and rice.",
+          "es": "Salmón marinado servido sobre ensalada y arroz.",
+          "fr": "Saumon mariné servi sur salade et riz.",
+          "de": "Marinierter Lachs serviert auf Salat und Reis.",
+          "pt": "Salmão marinado servido sobre salada e arroz.",
+          "zh": "秘制酱汁腌制的三文鱼，配以新鲜沙拉与米饭。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      }
+    ]
+  },
+  "FAJITAS": {
+    "category_translations": {
+      "en": "FAJITAS",
+      "es": "FAJITAS",
+      "fr": "FAJITAS",
+      "de": "FAJITAS",
+      "pt": "FAJITAS",
+      "zh": "铁板法士达 (Fajitas)"
+    },
+    "items": [
+      {
+        "name": {
+          "en": "Grilled Chicken or Steak Fajitas",
+          "es": "Fajitas de Pollo o Carne Asada",
+          "fr": "Fajitas au Poulet ou Steak Grillé",
+          "de": "Fajitas mit gegrilltem Hähnchen oder Steak",
+          "pt": "Fajitas de Frango ou Carne Grelhada",
+          "zh": "烤鸡肉或烤牛排铁板法士达"
+        },
+        "description": {
+          "en": "Grilled chicken (or steak) sauteed with onions and peppers. Served with rice, black beans, shredded lettuce, pico de gallo, and tortillas.",
+          "es": "Pollo asado (o carne) salteado con cebollas y pimientos. Servido con arroz, frijoles negros, lechuga picada, pico de gallo y tortillas.",
+          "fr": "Poulet grillé (ou steak) sauté avec oignons et poivrons. Servi avec du riz, des haricots noirs, de la laitue émincée, du pico de gallo et des tortillas.",
+          "de": "Gegrilltes Hähnchen (oder Steak) sautiert mit Zwiebeln und Paprika. Serviert mit Reis, schwarzen Bohnen, geschnittenem Salat, Pico de Gallo und Tortillas.",
+          "pt": "Frango grelhado (ou carne) salteado com cebola e pimentão. Servido com arroz, feijão preto, alface picada, pico de gallo e tortilhas.",
+          "zh": "烤鸡肉（或牛排）与洋葱及彩椒爆炒。附奉米饭、黑豆泥、生菜丝、公鸡嘴酱与墨西哥薄饼。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Shrimp Fajitas",
+          "es": "Fajitas de Camarón",
+          "fr": "Fajitas aux Crevettes",
+          "de": "Garnelen-Fajitas",
+          "pt": "Fajitas de Camarão",
+          "zh": "鲜虾铁板法士达"
+        },
+        "description": {
+          "en": "Grilled shrimp (6) sauteed with onions and peppers. Served with rice, black beans, shredded lettuce, pico de gallo, and tortillas.",
+          "es": "Camarones a la parrilla (6) salteados con cebollas y pimientos. Servido con arroz, frijoles negros, lechuga picada, pico de gallo y tortillas.",
+          "fr": "Crevettes grillées (6) sautées avec oignons et poivrons. Servies avec du riz, des haricots noirs, de la laitue émincée, du pico de gallo et des tortillas.",
+          "de": "Gegrillte Garnelen (6) sautiert mit Zwiebeln und Paprika. Serviert mit Reis, schwarzen Bohnen, geschnittenem Salat, Pico de Gallo und Tortillas.",
+          "pt": "Camarões grelhados (6) salteados com cebola e pimentão. Servido com arroz, feijão preto, alface picada, pico de gallo e tortilhas.",
+          "zh": "六只烤鲜虾与洋葱及彩椒在铁板上翻炒。附有米饭、黑豆泥、生菜丝、公鸡嘴酱及面饼。"
+        },
+        "image":"https://st.depositphotos.com/1000558/53737/v/1600/depositphotos_537370106-stock-illustration-image-photo-template-gray-background.jpg"
+      },
+      {
+        "name": {
+          "en": "Combo Fajitas",
+          "es": "Fajitas Combinadas",
+          "fr": "Fajitas Combo",
+          "de": "Kombi-Fajitas",
+          "pt": "Fajitas Combinadas",
+          "zh": "至尊组合铁板法士达"
+        },
+        "description": {
+          "en": "Grilled chicken, steak, shrimp (3) sauteed with onions and peppers. Served with rice, black beans, shredded lettuce, pico de gallo, and tortillas.",
+          "es": "Pollo asado, carne y camarones (3) salteados con cebollas y pimientos. Servido con arroz, frijoles negros, lechuga picada, pico de gallo y tortillas.",
+          "fr": "Poulet grillé, steak et crevettes (3) sautés avec oignons et poivrons. Servis avec du riz, des haricots noirs, de la laitue émincée, du pico de gallo et des tortillas.",
+          "de": "Gegrilltes Hähnchen, Steak und Garnelen (3) sautiert mit Zwiebeln und Paprika. Serviert mit Reis, schwarzen Bohnen, geschnittenem Salat, Pico de Gallo und Tortillas.",
+          "pt": "Frango grelhado, carne e camarão (3) salteados com cebola e pimentão. Servido com arroz, feijão preto, alface picada, pico de gallo e tortilhas.",
+          "zh": "烤鸡肉、牛排及三只大虾与洋葱和彩椒一同爆炒。配以米饭、黑豆泥、生菜丝、公鸡嘴酱及薄饼。"
+        },
+        "image":"./food/combo_fajita.png"
+      }
+    ]
+  },
+  "ENCHILADAS": {
+    "category_translations": {
+      "en": "ENCHILADAS",
+      "es": "ENCHILADAS",
+      "fr": "ENCHILADAS",
+      "de": "ENCHILADAS",
+      "pt": "ENCHILADAS",
+      "zh": "安奇拉达卷 (Enchiladas)"
+    },
+    "items": [
+      {
+        "name": {
+          "en": "Cheese Enchiladas",
+          "es": "Enchiladas de Queso",
+          "fr": "Enchiladas au Fromage",
+          "de": "Käse-Enchiladas",
+          "pt": "Enchiladas de Queijo",
+          "zh": "芝士安奇拉达卷"
+        },
+        "description": {
+          "en": "Two corn tortillas stuffed with cheese, topped with cheese and salsa. Served with rice and black beans.",
+          "es": "Dos tortillas de maíz rellenas de queso, coronadas con más queso y salsa. Servido con arroz y frijoles negros.",
+          "fr": "Deux tortillas de maïs farcies au fromage, nappées de fromage et de salsa. Servies avec du riz et des haricots noirs.",
+          "de": "Zwei mit Käse gefüllte Maistortillas, überbacken mit Käse und Salsa. Serviert mit Reis und schwarzen Bohnen.",
+          "pt": "Duas tortilhas de milho recheadas com queijo, cobertas com queijo e salsa. Acompanha arroz e feijão preto.",
+          "zh": "两只裹满芝士的玉米饼卷，表面淋上沙司和芝士烤制。搭配米饭及黑豆泥。"
+        },
+        "image":"./food/enchiladas.png"
+      },
+      {
+        "name": {
+          "en": "Chicken, Ground Beef, or Spinach Enchiladas",
+          "es": "Enchiladas de Pollo, Carne Molida o Espinaca",
+          "fr": "Enchiladas au Poulet, Bœuf Haché ou Épinards",
+          "de": "Enchiladas mit Hähnchen, Rinderhack oder Spinat",
+          "pt": "Enchiladas de Frango, Carne Moída ou Espinafre",
+          "zh": "鸡肉、免治牛肉或菠菜安奇拉达卷"
+        },
+        "description": {
+          "en": "Two corn tortillas stuffed with your choice of chicken, ground beef, or spinach topped with cheese and salsa. Served with rice and black beans.",
+          "es": "Dos tortillas de maíz rellenas con su elección de pollo, carne molida o espinaca, coronadas con queso y salsa. Servido con arroz y frijoles negros.",
+          "fr": "Deux tortillas de maïs farcies de votre choix de poulet, de bœuf haché ou d'épinards, nappées de fromage et de salsa. Servies avec du riz et des haricots noirs.",
+          "de": "Zwei Maistortillas gefüllt nach Wahl mit Hähnchen, Rinderhackfleisch oder Spinat, überbacken mit Käse und Salsa. Serviert mit Reis und schwarzen Bohnen.",
+          "pt": "Duas tortilhas de milho recheadas com sua escolha de frango, carne moída ou espinafre, cobertas com queijo e salsa. Acompanha arroz e feijão preto.",
+          "zh": "两只玉米饼卷，可选鸡肉、牛肉碎或菠菜作为内馅，表面覆有芝士及沙司。搭配米饭和黑豆泥。"
+        },
+        "image":"./food/enchiladas.png"
+      },
+      {
+        "name": {
+          "en": "Mole Enchiladas",
+          "es": "Enchiladas de Mole",
+          "fr": "Enchiladas au Mole",
+          "de": "Mole-Enchiladas",
+          "pt": "Enchiladas de Mole",
+          "zh": "莫雷酱安奇拉达卷 (Mole Enchiladas)"
+        },
+        "description": {
+          "en": "Chicken enchiladas with mole sauce. Topped with cheese and served with rice and beans.",
+          "es": "Enchiladas de pollo con salsa mole. Coronadas con queso y servidas con arroz y frijoles.",
+          "fr": "Enchiladas au poulet avec sauce mole. Nappées de fromage et servies avec du riz et des haricots.",
+          "de": "Hähnchen-Enchiladas mit Mole-Sauce. Überbacken mit Käse und serviert mit Reis und Bohnen.",
+          "pt": "Enchiladas de frango com molho mole. Cobertas com queijo e servidas com arroz e feijão.",
+          "zh": "淋上经典墨西哥莫雷酱（Mole，一种含可可与多个香料调配的特调酱汁）的鸡肉玉米卷，面覆芝士，附米饭和豆泥。"
+        },
+        "image":"./food/mole_enchilada.png"
+      }
+    ]
+  }
+}
